@@ -1,7 +1,3 @@
-Here's the **complete `README.md`** file for your **Book Review REST API** project based on the structure and code you shared:
-
----
-
 ````markdown
 # 📚 Book Review REST API
 
