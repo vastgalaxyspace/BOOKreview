@@ -9,8 +9,8 @@ A simple backend system built with **Node.js**, **Express**, and **MongoDB** tha
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/book-review-api.git
-cd book-review-api
+git clone https://github.com/vastgalaxyspace/BOOKreview.git
+cd bookreview
 ````
 
 ### 2. Install Dependencies
@@ -238,42 +238,7 @@ ReviewSchema.index({ bookId: 1, userId: 1 }, { unique: true });
 
 ---
 
-## 🧪 Example API Request with `curl`
 
-### Register
 
-```bash
-curl -X POST http://localhost:5000/auth/register \
--H "Content-Type: application/json" \
--d '{"username":"john","email":"john@example.com","password":"pass123"}'
-```
 
-### Add Book
 
-```bash
-curl -X POST http://localhost:5000/books/add \
--H "Authorization: Bearer <your_token>" \
--H "Content-Type: application/json" \
--d '{"title":"Clean Code","author":"Robert Martin","genre":"Programming","publishedYear":2008}'
-```
-
----
-
-## 📌 Notes
-
-* Ensure MongoDB is running or use MongoDB Atlas.
-* Replace `<your_token>` in requests with your actual JWT token.
-* Use Postman or Thunder Client for easier API testing.
-
----
-
-## 📬 Contact
-
-For questions or contributions, reach out to [Your Name](mailto:your.email@example.com).
-
-```
-
----
-
-Let me know if you'd like the README formatted for GitHub with badges, a license, or a live deployment guide (like on Render or Railway).
-```
